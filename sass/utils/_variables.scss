@@ -1,0 +1,78 @@
+$primary-title-text-color: #212121;
+$secondary-title-color: #ffffff;
+$primary-text-color: #757575;
+$accent-color: #2196f3;
+$mail-phone-color: rgba(255, 255, 255, 0.6);
+$background-black-color: #2F303A;
+$icon-border-color: #AFB1B8;
+$background-color: #F5F4FA;
+
+$text-font: “Roboto”, sans-serif;
+$logo-font: ‘Raleway’, sans-serif;
+
+body {
+    background-color: $secondary-title-color;
+    color: $primary-title-text-color;
+    font-family: $text-font;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}

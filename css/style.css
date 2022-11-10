@@ -7,7 +7,7 @@
   --background-black-color: #2F303A;
   --icon-border-color: #AFB1B8;
   --background-color: #F5F4FA ;
-  
+
 }
 
 /* в футере тел и міло - rgba(255, 255, 255, 0.6); */
@@ -42,7 +42,7 @@ a {
 button {
   cursor: pointer;
   font-family: inherit;
- 
+
   text-align: center;
   border: 1px solid transparent;
 }
@@ -220,7 +220,7 @@ h1, h2, h3, p, ul {
 }
 
 .page-footer {
-  
+
   background-color: var(--background-black-color);
   line-height: 1.71;
   text-decoration: none;
@@ -656,6 +656,11 @@ text-align: center;
 
 /* section-customers */
 
+.section-customers {
+   background-color: var(--secondary-title-color);
+  text-align: center;
+
+}
 
 .section-customers__title {
   font-size: 36px;
@@ -892,7 +897,7 @@ text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   width: 528px;
   height: 581px;
   background: #FFFFFF;
@@ -912,7 +917,7 @@ text-align: center;
   right: 8px;
   width: 30px;
   height: 30px;
-  
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--secondary-title-color);
   border-radius: 50%;
@@ -1071,14 +1076,14 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   margin-right: 7px;
   width: 16px;
   height: 15px;
   fill: transparent;
-  
+
   border-radius: 4px;
-  
+
   border: 2px solid var(--primary-title-text-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1089,8 +1094,8 @@ text-align: center;
 .checkbox__input:checked + .checkbox__border {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
- 
-  
+
+
 }
 
 .checkbox__label {
