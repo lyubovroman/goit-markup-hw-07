@@ -1,9 +1,9 @@
 .section-benefits {
     background-color: $secondary-title-color;
-    padding-bottom: 0;
+    padding-bottom: 0;}
 
 
-&__container {
+.section-benefits__container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -11,39 +11,39 @@
     padding-right: 15px;
 }
 
-&__list {
+.section-benefits__list {
     display: flex;
 
 }
 
-&__item:not(:last-child) {
+.section-benefits__item:not(:last-child) {
     margin-right: 30px;
 }
 
-&__img {
+.section-benefits__img {
     background-color: $background-color;
     border-radius: 4px;
 }
 
-&__icon {
+.section-benefits__icon {
     width: 270px;
     height: 120px;
     padding: 25px 100px;
 }
 
 
-&__text {
+.section-benefits__text {
     color: $primary-text-color;
     line-height: 1.71;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-&__title {
+.section-benefits__title {
     line-height: 1.14;
     text-transform: uppercase;
     font-size: 14px;
     padding-bottom: 10px;
     margin-top: 30px;
 
-}}
+}

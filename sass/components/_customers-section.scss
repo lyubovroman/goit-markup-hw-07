@@ -1,15 +1,15 @@
 .section-customers {
-    background-color: $secondary-title-color;
+    background-color: $secondary-title-color;}
 
 
-&__title {
+.section-customers__title {
     font-size: 36px;
     line-height: 1.16;
     margin-bottom: 50px;
     text-align: center;
 }
 
-&__list {
+.section-customers__list {
     display: flex;
     padding: 0px;
     margin: 0px;
@@ -17,7 +17,7 @@
 
 }
 
-&__link {
+.section-customers__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -29,25 +29,24 @@
     fill: $icon-border-color;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+            border: 1px solid $accent-color;
+            fill: $accent-color;}
 }
 
-&__link:hover,
-&__link:focus {
-    border: 1px solid $accent-color;
-    fill: $accent-color;
-}
 
-&__icon {
+
+.section-customers__icon {
     width: 106px;
     height: 60px;
 }
 
-&__item {
+.section-customers__item {
     margin-right: 30px;
 
-}
+     &:last-child {
+            margin-right: 0px;}}
 
-&__item:last-child {
-    margin-right: 0px;
-}}
+

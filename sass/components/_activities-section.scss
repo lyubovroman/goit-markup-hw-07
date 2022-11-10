@@ -1,28 +1,28 @@
 .section-activities {
-    background-color: $secondary-title-color;
+    background-color: $secondary-title-color;}
 
 
 
-&__title {
+.section-activities__title {
     font-size: 36px;
     line-height: 1.16;
     margin-bottom: 50px;
     text-align: center;
 }
 
-&__list {
+.section-activities__list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-&__img {
+.section-activities__img {
     position: relative;
     width: 370px;
 }
 
-&__action {
+.section-activities__action {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -35,9 +35,9 @@
     right: 0;
 }
 
-&__text {
+.section-activities__text {
     color: $secondary-title-color;
     font-weight: 700;
     line-height: 1.17;
     text-transform: uppercase;
-} }
+} 
