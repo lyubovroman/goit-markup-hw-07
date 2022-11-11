@@ -7,15 +7,14 @@ $background-black-color: #2F303A;
 $icon-border-color: #AFB1B8;
 $background-color: #F5F4FA;
 
-$text-font-face: “Roboto”, sans-serif;
-$logo-font-face: ‘Raleway’, sans-serif;
+
 
 body {
     background-color: $secondary-title-color;
     color: $primary-title-text-color;
-    font-family: $text-font-face;
     font-size: 14px;
     letter-spacing: 0.03em;
+    font-family: 'Roboto', sans-serif;
 }
 
 textarea {
