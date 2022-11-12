@@ -1,8 +1,4 @@
-.container.footer {
-    display: flex;
-    align-items: baseline;
 
-}
 
 .page-footer {
 
@@ -11,7 +7,11 @@
     text-decoration: none;
     font-style: normal;
     padding-top: 60px;
-    padding-bottom: 60px;}
+    padding-bottom: 60px;
+    color: $secondary-title-color;
+}
+
+
 
 
 
@@ -62,8 +62,9 @@
 
 
 .subscription {
-    margin-left: 70px; }
-
+    margin-left: 70px;
+    
+}
 
 .subscription__title {
     display: block;
@@ -74,10 +75,11 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $secondary-title-color;
+   color: $secondary-title-color;
+
 }
 
-.subscription__list {
+.subscripton__list {
     display: flex;
     gap: 10px;
 }
@@ -94,9 +96,13 @@
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover, &:focus {
-            background-color: $accent-color;}
+        &:hover, &:focus {
+        background-color: $accent-color;
+    }
 }
+
+
+
 
 
 
