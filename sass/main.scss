@@ -1,6 +1,6 @@
 @import "./utils/variables";
-@import "./base/normalize";
 @import "./base/fonts";
+@import "./base/base";
 
 @import "./utils/vh";
 
@@ -14,5 +14,7 @@
 @import "./components/page-footer";
 @import "./components/backdrop";
 @import "./components/modal";
+@import "./components/portfolio-services";
+@import "./components/portfolio-img";
 
 
